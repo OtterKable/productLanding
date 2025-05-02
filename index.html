@@ -115,7 +115,7 @@
         resize();
 
         function resize() {
-            var sub = window.innerWidth > 500 ? "Subscribe to our newsletter!" : "Subscribe";
+            var sub = window.innerWidth > 500 /* does this work? */ ? "Subscribe to our newsletter!" : "Subscribe";
             document.getElementById('email').setAttribute('placeholder', sub);
         }
     </script>
